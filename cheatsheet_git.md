@@ -111,7 +111,10 @@ Para verificar os logs dos nossos commits
     git log --stat
     git log --author=Jeferson
 ```
+Visualização da árvore de branches e commites de forma gráfica. 
+
+OBS: Esse tipo de visualização pode ajudar a entender como se deram os merges em um ambiente onde utiliza-se o [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) , e em ambientes de [*trunk based*](https://trunkbaseddevelopment.com/) pode ajudar a visualizar se o fluxo de merges de *short live branches* esta sendo seguido e com isso ajudar no *debug*.
 
 ```bash
-
+    git log --oneline --graph --decorete --all
 ```
