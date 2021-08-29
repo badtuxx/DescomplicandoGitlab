@@ -1,7 +1,8 @@
 ## Day-2
 
 Durante o Day-2 do treinamento Descomplicando o Gitlab, você vai aprender como sobreviver utilizando o git.
-Durante a aula de hoje, nós vamos aprender como utilizar o git para:
+
+Nós vamos aprender:
 
 - Configurar o git
 - Criar/Clonar um repositório no git
