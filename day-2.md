@@ -4,15 +4,16 @@ Durante o Day-2 do treinamento Descomplicando o Gitlab, você vai aprender como 
 
 Nós vamos aprender:
 
-- Configurar o git
-- Criar/Clonar um repositório no git
-- Conhecer as rotinas básicas do git, como add, commit, push, pull, etc.
-- Consultar o log do git
-- Brincar com revert e reset
-- Brincar com branches
-- Realizar merge entre branches
+- [Day-2](#day-2)
+    - [Git Config](#git-config)
+    - [Iniciando no Git](#iniciando-no-git)
+    - [Verificando os Logs](#verificando-os-logs)
+    - [Revert e Reset](#revert-e-reset)
+    - [Branches](#branches)
+    - [Branching e Merge](#branching-e-merge)
+  - [Exemplo de fluxo do Git](#exemplo-de-fluxo-do-git)
 
-### Conteúdo
+
 #### Git Config
 
 Antes de começar a brincar com os nossos repositórios, primeiro nós precisamos configurar e personalizar o git de acordo com as nossas preferências e necessidades.
