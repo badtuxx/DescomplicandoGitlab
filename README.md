@@ -14,12 +14,12 @@ Para conhecer mais sobre o treinamento e o conteúdo, acesse o link abaixo:
 
 ### Conteúdo
 
-- [Day-1](day1.md) - Ainda Indisponível
-- [Day-2](day2.md) - DISPONÍVEL
-- [Day-3](day3.md) - Ainda Indisponível
-- [Day-4](day4.md) - Ainda Indisponível
-- [Day-5](day5.md) - Ainda Indisponível
-- [Day-6](day6.md) - Ainda Indisponível
+- [Day-1](day-1.md) - Ainda Indisponível
+- [Day-2](day-2.md) - DISPONÍVEL
+- [Day-3](day-3.md) - Ainda Indisponível
+- [Day-4](day-4.md) - Ainda Indisponível
+- [Day-5](day-5.md) - Ainda Indisponível
+- [Day-6](day-6.md) - Ainda Indisponível
 
 
 Contamos com sua ajuda para tornar esse material ainda mais completo, colabore! Para contribuir com melhorias no conteúdo, siga as instruções deste [tutorial](CONTRIBUTING.md).
