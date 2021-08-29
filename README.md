@@ -2,8 +2,8 @@
 
 # Descomplicando o Gitlab
 
-Esse livro está sendo construindo durante o treinamento [Descomplicando o Gitlab da LINUXtips.](https://linuxtips.io).
-A ideia é ter um conteúdo completo, gratuito e aberto para que todos possams aprender como utilizar o Gitlab de maneira efetiva.
+Esse livro está sendo construindo durante o treinamento [Descomplicando o Gitlab da LINUXtips](https://linuxtips.io).
+A ideia é ter um conteúdo completo, gratuito e aberto para que todos possam aprender como utilizar o Gitlab de maneira efetiva.
 
 Atualmente o treinamento possui muito mais conteúdo do que está aqui presente no livro. Porém a ideia é ter um material tão rico e completo quanto o treinamento, e para que isso aconteça, precisamos de sua ajuda, contribua com o livro corrigindo o conteúdo atual, ou ainda, adicionando conteúdo adicional.
 
