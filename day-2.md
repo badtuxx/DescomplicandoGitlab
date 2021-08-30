@@ -1,6 +1,6 @@
 ## Day-2
 
-Durante o Day-2 do treinamento Descomplicando o Gitlab, você vai aprender como sobreviver utilizando o git.
+Durante o Day-2 do treinamento Descomplicando o GitLab, você vai aprender como sobreviver utilizando o git.
 
 Nós vamos aprender:
 
@@ -38,7 +38,7 @@ Para adicionar o email do autor, faça:
 Para configurar qual será o seu editor de texto padrão, execute o seguinte comando:
 
 ```bash
-    git config --sysytem editor vim
+    git config --system editor vim
 ```    
 
 
@@ -139,7 +139,7 @@ Abaixo irei adicionar diferentes formas de ter acesso aos logs. É muito importa
 ```bash
     git log
     git log -p
-    git log -2 # para visualizar os dois ultimos commits
+    git log -2 # para visualizar os dois últimos commits
     git log --oneline
     git log --raw
     git log --pretty=full
@@ -154,13 +154,13 @@ Para ter um visualização da árvore de branches e commites de forma gráfica.
 OBS: Esse tipo de visualização pode ajudar a entender como se deram os merges em um ambiente onde utiliza-se o [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) , e em ambientes de [*trunk based*](https://trunkbaseddevelopment.com/) pode ajudar a visualizar se o fluxo de merges de *short live branches* esta sendo seguido e com isso ajudar no *debug*.
 
 ```bash
-    git log --oneline --graph --decorete --all
+    git log --oneline --graph --decorate --all
 ```
 
 #### Revert e Reset 
 
 Quem nunca commitou algo que não era para committar?
-Nesses momentos você precisa conhecer o Revert e o Reset, eles serão seus amigos em momentos dificeis como o de um commit errado.
+Nesses momentos você precisa conhecer o Revert e o Reset, eles serão seus amigos em momentos difíceis como o de um commit errado.
 
 Vamos imaginar a situação onde você acabou de adicionar todos os seus arquivos para a Staging Area.
 
@@ -186,7 +186,7 @@ Changes to be committed:
 ```
 
 Como podemos ver, acabamos adicionando o arquivo minhas_senhas.txt! E agora?
-Bem, nesses momentos dificeis você pode contar com o git reset!
+Bem, nesses momentos difíceis você pode contar com o git reset!
 
 Para retirar esse arquivo da Staging Area, faça:
 
@@ -294,7 +294,7 @@ M	README.md
 M	cheatsheet_git.md
 ```
 
-Com isso, nosso repositorio voltou para o commit b7ca89d e o arquivo README.md e cheatsheet_git.md foram removidos da Staging Area.
+Com isso, nosso repositório voltou para o commit b7ca89d e o arquivo README.md e cheatsheet_git.md foram removidos da Staging Area.
 
 Podemos ainda utilizar o comando git reset --hard para voltar o nosso repositório para o commit específico.
 
@@ -340,7 +340,7 @@ Podemos alterar a mensagem do commit através do comando git commit --amend.
 
 Com isso, abrirá o editor de texto, para que possamos alterar a mensagem do commit.
 
-Caso queira, pode-se utilizar o comando git commit --amend com o parametro -m e a "mensagem" para alterar a mensagem do commit.
+Caso queira, pode-se utilizar o comando git commit --amend com o parâmetro -m e a "mensagem" para alterar a mensagem do commit.
 
 
 ```bash
@@ -355,7 +355,7 @@ Pronto, acredito que já sabemos como utilizar o git para reverter alguma cagada
 
 Durante o processo de desenvolvimento, podemos criar várias branches, para trabalhar em diferentes partes do nosso projeto. Com isso, podemos ter diversas pessoas trabalhando simultaneamente no mesmo projeto, e sem interferir na branch principal.
 
-Imagina que temos o codigo de nossa aplicação, e temos que realizar alguma alteração no codigo, e queremos que ela seja testada, e depois que ela estiver testada, podemos colocar ela em produção.
+Imagina que temos o código de nossa aplicação, e temos que realizar alguma alteração no código, e queremos que ela seja testada, e depois que ela estiver testada, podemos colocar ela em produção.
 
 O que isso significa?
 
@@ -365,7 +365,7 @@ Ficou claro?
 
 Se ainda não, não se preocupe, pois iremos ainda brincar com branches por diversas vezes, como por exemplo durante a aula sobre git flow.
 
-Para criar uma nova branch, basta utilizar o comando git checkout com o parametro -b.
+Para criar uma nova branch, basta utilizar o comando git checkout com o parâmetro -b.
 
 
 ```bash
@@ -439,23 +439,23 @@ Agora, vamos fazer o merge.
     git merge branch_giropops
 ```
 
-Agora, o nosso codigo está em produção, e o conteúdo da branch branch_giropops foi adicionado ao conteúdo da branch principal.
+Agora, o nosso código está em produção, e o conteúdo da branch branch_giropops foi adicionado ao conteúdo da branch principal.
 
 Nós ainda vamos brincar muito mais com branches, merges e ainda precisamos conhecer o rebase, mas isso vai ficar para mais para frente, agora nós precisamos práticar tudo que aprendemos durante o Day-2.
 
 
-Abaixo temos alguns exemplos de como funciona a dinamica durante o dia a dia utilizando o git.
+Abaixo temos alguns exemplos de como funciona a dinâmica durante o dia a dia utilizando o git.
 Muito obrigado ao @felipefrocha por criar o fluxo abaixo para que possamos praticar. :)
 
-Inclusive gostaria de salientar a importância da colaboração de todos, para que tenhamos um livro bastante completo sobre a utilização do Gitlab. 
+Inclusive gostaria de salientar a importância da colaboração de todos, para que tenhamos um livro bastante completo sobre a utilização do GitLab. 
 
-Lembrando que esse livro é parte do treinamento [Descomplicando o Gitlab da LINUXtips.](https://linuxtips.io)
+Lembrando que esse livro é parte do treinamento [Descomplicando o GitLab da LINUXtips.](https://linuxtips.io)
 
 
 Agora bora praticar um pouquinho!
 
 ### Exemplo de fluxo do Git
-Apenas para aprecisação dos comando aprendidos até o momento é legal realizar uma pequena prova de conceito, para fixar a idiea de alguns comandos, veja abaixo uma sugestão de sequência de comandos que poderiam ser utilizados no dia a dia:
+Apenas para apreciação dos comando aprendidos até o momento é legal realizar uma pequena prova de conceito, para fixar a ideia de alguns comandos, veja abaixo uma sugestão de sequência de comandos que poderiam ser utilizados no dia a dia:
 ```bash
     git init
     touch testes
@@ -476,7 +476,7 @@ Apenas para aprecisação dos comando aprendidos até o momento é legal realiza
     git log                                                                 # visualizar commites até o momento
     git commit --amend                                                      # Altere a mensagem do seu ultimo commit
     git log
-    git rebase -i HEAD~3 #Alterar os ultimos 3 commites
+    git rebase -i HEAD~3 #Alterar os últimos 3 commites
     # Troque o valor de pick por squash nas ultimas 3 linhas 
     # referentes aos commites
     git log
@@ -496,8 +496,8 @@ Apenas para aprecisação dos comando aprendidos até o momento é legal realiza
     ls -l                                                                   # lista os arquivos na pasta
     git log
     git checkout main                                                       # retorna para a branch "main"
-    ls -l                                                                   # note que os arquivos da outra branch não estao presentes mais
-    git log --decorate --oneline --graph --all                              # visualização de todos os commites e em quais branches  em ordem cronologica
+    ls -l                                                                   # note que os arquivos da outra branch não estão presentes mais
+    git log --decorate --oneline --graph --all                              # visualização de todos os commites e em quais branches  em ordem cronológica
     git merge feature/teste                                                 # merge das duas branchs
     ls -l                                                                   # Veja que todos os arquivos aparecem nesse momento
     # vamos adicionar mais arquivos e commita-los em branches 
