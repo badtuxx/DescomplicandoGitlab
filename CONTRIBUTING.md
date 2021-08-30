@@ -18,7 +18,7 @@ Execute os passos a seguir sempre que desejar melhorar o conteúdo deste reposit
 
 ```
 git remote -v
-git remote add upstream https://github.com/badtuxx/DescomplicandoKubernetes
+git remote add upstream https://github.com/badtuxx/DescomplicandoGitlab
 git remote -v
 ```
 
