@@ -104,7 +104,7 @@ Para adicionar um arquivo no INDEX
 
 ```bash
     git add NOME_DO_ARQUIVO # Adiciona o arquivo ao INDEX
-    git add. # Adiciona todos os arquivos desse diretório
+    git add . # Adiciona todos os arquivos desse diretório
 ```  
 
 Para adicionar um arquivo no HEAD
